@@ -48,7 +48,7 @@ if os.path.exists("version.txt") :
 else :
     subversion = 1   
 
-project_var_name    = "project_name"
+project_var_name    = "tracking"
 sversion            = "0.0"
 versionPython       = "%s.%s" % (sys.version_info.major, sys.version_info.minor)
 path                = "Lib/site-packages/" + project_var_name
